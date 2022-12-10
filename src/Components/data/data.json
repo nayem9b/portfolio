@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Anonna's Kitchen",
+    "website": "https://anonna-s-kitchen.web.app/",
+    "client": "https://github.com/nayem9b/Anonna-Kitchen",
+    "server": "https://github.com/nayem9b/anonna-kitchen-serverside",
+    "details": "App fully runs from the serverside and database \n User can create, read, update or delete any data & it comes from the database \n MongoDB ise used as a nosql database \n Users credentials are verified by JWT token \n Data is limitized when fetched from the database \n Dynamic title is added \n Users information is only showed when is queried by email address",
+    "images": [
+      {
+        "img1": "https://i.ibb.co/447y7RN/signUp.png",
+        "img2": "https://i.ibb.co/gdDn3pv/Category.png",
+        "img3": "https://i.ibb.co/JBGTvFb/Review.png"
+      }
+    ]
+  },
+  {
+    "name": "Anonna's Kitchen",
+    "website": "https://anonna-s-kitchen.web.app/",
+    "client": "https://github.com/nayem9b/Anonna-Kitchen",
+    "server": "https://github.com/nayem9b/anonna-kitchen-serverside",
+    "details": "App fully runs from the serverside and database \n User can create, read, update or delete any data & it comes from the database \n MongoDB ise used as a nosql database \n Users credentials are verified by JWT token \n Data is limitized when fetched from the database \n Dynamic title is added \n Users information is only showed when is queried by email address",
+    "images": [
+      {
+        "img1": "https://i.ibb.co/447y7RN/signUp.png",
+        "img2": "https://i.ibb.co/gdDn3pv/Category.png",
+        "img3": "https://i.ibb.co/JBGTvFb/Review.png"
+      }
+    ]
+  },
+  {
+    "name": "Anonna's Kitchen",
+    "website": "https://anonna-s-kitchen.web.app/",
+    "client": "https://github.com/nayem9b/Anonna-Kitchen",
+    "server": "https://github.com/nayem9b/anonna-kitchen-serverside",
+    "details": "App fully runs from the serverside and database \n User can create, read, update or delete any data & it comes from the database \n MongoDB ise used as a nosql database \n Users credentials are verified by JWT token \n Data is limitized when fetched from the database \n Dynamic title is added \n Users information is only showed when is queried by email address",
+    "images": [
+      {
+        "img1": "https://i.ibb.co/447y7RN/signUp.png",
+        "img2": "https://i.ibb.co/gdDn3pv/Category.png",
+        "img3": "https://i.ibb.co/JBGTvFb/Review.png"
+      }
+    ]
+  }
+]
