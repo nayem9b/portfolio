@@ -7,42 +7,47 @@ import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <div>
-      <BrowserRouter>
-        <nav class='   z-10 w-full shadow bg-black'>
-          <div class='container flex items-center justify-center p-6  text-gray-600 capitalize dark:text-gray-300'>
-            {/* <a
+      <nav class='   z-10 w-full shadow bg-black'>
+        <div class='container flex items-center justify-center p-6  text-gray-600 capitalize dark:text-gray-300'>
+          {/* <a
             href='#about_me'
             class='border-b-2 border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 sm:mx-6'>
             About Me
           </a> */}
-            {/*  fixed top-0 left-0 right-0 */}
-            <div className='flex justify-between gap-3'>
-              <Link
-                to='#about_me'
-                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
-                smooth>
-                About me
-              </Link>
-              <Link
-                to='#skills'
-                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
-                smooth>
-                Skills
-              </Link>
-              <Link
-                to='#projects'
-                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
-                smooth>
-                Projects
-              </Link>
-              <Link
-                to='#contact_me'
-                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
-                smooth>
-                Contact me
-              </Link>
-            </div>
-            {/* 
+          {/*  fixed top-0 left-0 right-0 */}
+          <div className='flex justify-between gap-3'>
+            <Link
+              to='#about_me'
+              className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+              smooth>
+              About me
+            </Link>
+            <Link
+              to='#skills'
+              className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+              smooth>
+              Skills
+            </Link>
+            <Link
+              to='#projects'
+              className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+              smooth>
+              Projects
+            </Link>{" "}
+            <Link
+              to='/blogs'
+              className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+              smooth>
+              blogs
+            </Link>
+            <Link
+              to='#contact_me'
+              className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+              smooth>
+              Contact me
+            </Link>
+          </div>
+          {/* 
             <a
               href='#'
               class='border-b-2 border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 sm:mx-6'>
@@ -69,7 +74,7 @@ const Navbar = () => {
               blog
             </a> */}
 
-            {/* <a
+          {/* <a
             href='#'
             class='border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6'>
             <svg
@@ -86,7 +91,7 @@ const Navbar = () => {
             </svg>
           </a> */}
 
-            {/* <a
+          {/* <a
             href='#'
             class='border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6'>
             <svg
@@ -98,9 +103,8 @@ const Navbar = () => {
               <path d='m21.308 6.464c.993 0 .992-1.5 0-1.5h-5.87c-.993 0-.992 1.5 0 1.5z' />
             </svg>
           </a> */}
-          </div>
-        </nav>
-      </BrowserRouter>
+        </div>
+      </nav>
     </div>
   );
 };
