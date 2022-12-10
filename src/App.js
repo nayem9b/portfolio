@@ -14,6 +14,7 @@ import learn from "./images/learn.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import pdf from "./images/Md Razwan Niam resume.pdf";
 import nayem from "./images/nayem.jpg";
+import ContactMe from "./Components/ContactMe/ContactMe";
 function App() {
   return (
     <div className=''>
@@ -39,7 +40,7 @@ function App() {
                   </button>
                 </a>
                 <a
-                  class='inline-flex items-center rounded border-2 border-[#171515] bg-[#171515] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#171515] focus:outline-none focus:ring active:opacity-75'
+                  class='inline-flex items-center rounded border-2 border-[#171515] bg-[#171515] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent focus:outline-none focus:ring active:opacity-75'
                   href='https://github.com/nayem9b'
                   target='_blank'
                   rel='noreferrer'>
@@ -56,7 +57,7 @@ function App() {
                   </svg>
                 </a>
                 <a
-                  class='inline-flex items-center rounded border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent hover:text-[#0077b5] focus:outline-none focus:ring active:opacity-75'
+                  class='inline-flex items-center rounded border-2 border-[#0077b5] bg-[#0077b5] px-5 py-3 text-sm font-medium text-white transition-colors hover:text-black focus:outline-none focus:ring active:opacity-75'
                   href='https://www.linkedin.com/in/razwan-niam/'
                   target='_blank'
                   rel='noreferrer'>
@@ -307,34 +308,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div
-          class="bg-[url('https://images.pexels.com/photos/8715123/pexels-photo-8715123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  sticky top-0 h-screen flex flex-col items-center justify-center bg-neutral-800 text-white bg-cover "
-          id='contact_me'>
-          <h2 class='text-4xl mb-10'>Contact me</h2>
-          <div className='grid grid-rows-4 gap-y-1'>
-            <input
-              type='text'
-              placeholder='Name'
-              className='input input-bordered input-warning w-96 max-w-sm'
-            />
-            <input
-              type='text'
-              placeholder='Email'
-              className='input input-bordered input-warning w-96 max-w-sm'
-            />
-            <input
-              type='text'
-              placeholder='Phone Number'
-              className='input input-bordered input-warning w-96 max-w-sm'
-            />
-            <textarea
-              className='textarea textarea-warning w-96 max-w-sm'
-              placeholder='Message'></textarea>
-            <button className='btn glass text-right font-bold text-green-400 w-28'>
-              submit
-            </button>
-          </div>
-        </div>
+        <ContactMe></ContactMe>
         {/* <div class='sticky top-0 h-screen flex flex-col items-center justify-center bg-neutral-800 text-white'></div> */}
         {/* <div class='  relative top-0 h-screen flex flex-col items-center justify-center bg-neutral-800 text-white'>
           <h2 class='text-4xl'>The Fourth Title</h2>

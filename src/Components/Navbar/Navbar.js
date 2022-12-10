@@ -19,25 +19,25 @@ const Navbar = () => {
             <div className='flex justify-between gap-3'>
               <Link
                 to='#about_me'
-                className='border-b-2 border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
                 smooth>
                 About me
               </Link>
               <Link
                 to='#skills'
-                className='border-b-2 border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
                 smooth>
                 Skills
               </Link>
               <Link
                 to='#projects'
-                className='border-b-2 border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
                 smooth>
                 Projects
               </Link>
               <Link
                 to='#contact_me'
-                className='border-b-2 border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
+                className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
                 smooth>
                 Contact me
               </Link>
