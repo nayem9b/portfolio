@@ -8,7 +8,17 @@ import nayem from "../../images/nayem.jpg";
 import bookify from "../../images/bookify.png";
 import kitchen from "../../images/anonna.png";
 import learn from "../../images/learn.png";
+
+import { createContext, useEffect, useState } from "react";
+import ProjectCard from "../Project/ProjectCard";
 const Home = () => {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:5000/")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
+
   return (
     <div>
       <div class='relative'>
@@ -210,7 +220,10 @@ const Home = () => {
           id='projects'>
           <h1 className='text-center mb-10 text-6xl'>My Projects</h1>
           <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-x-5 lg:mx-8'>
-            <div className=''>
+            {projects.map((project) => (
+              <ProjectCard project={project}></ProjectCard>
+            ))}
+            {/* <div className=''>
               <a
                 href='https://bookify-a39cf.web.app/signin'
                 class='block overflow-hidden group'>
@@ -297,7 +310,7 @@ const Home = () => {
               <div>
                 <h1>Features:</h1>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <ContactMe></ContactMe>
