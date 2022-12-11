@@ -12,17 +12,13 @@ const ContactMe = () => {
     const number = form.user_number.value;
     const message = form.message.value;
     console.log(name, email, number, message);
-    console.log(
-      process.env.REACT_APP_YOUR_SERVICE_ID,
-      process.env.REACT_APP_YOUR_TEMPLATE_ID,
-      process.env.REACT_APP_YOUR_PUBLIC_KEY
-    );
+    console.log("service_zgg3r9e", "template_rxwizkk", "Ouyl6nG-O6BcWAykI");
     emailjs
       .sendForm(
-        process.env.REACT_APP_YOUR_SERVICE_ID,
-        process.env.REACT_APP_YOUR_TEMPLATE_ID,
+        "service_zgg3r9e",
+        "template_rxwizkk",
         send.current,
-        process.env.REACT_APP_YOUR_PUBLIC_KEY
+        "Ouyl6nG-O6BcWAykI"
       )
       .then(
         (result) => {

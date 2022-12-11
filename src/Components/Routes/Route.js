@@ -21,7 +21,9 @@ export const router = createBrowserRouter([
       {
         path: "project/:id",
         loader: async ({ params }) => {
-          return fetch(`http://localhost:5000/project/${params.id}`);
+          return fetch(
+            `http://localhost:5000/project/${params.id}`
+          );
         },
         element: <ProjectDetails></ProjectDetails>,
       },

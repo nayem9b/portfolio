@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
-  const { number, name, website, client, server } = project;
+  const { number, name, website, client, server, img1 } = project;
   return (
     <div>
       <div className=''>
         <a href={website} class='block overflow-hidden group'>
           <img
-            //   src={}
+            src={img1}
             alt=''
             class='h-[250px]  object-contain transition duration-500 group-hover:scale-105 '
           />
