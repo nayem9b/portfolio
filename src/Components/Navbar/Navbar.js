@@ -17,12 +17,12 @@ const Navbar = () => {
           {/*  fixed top-0 left-0 right-0 */}
           <div className='flex justify-between gap-3'>
             <Link
-              to='#about_me'
+              to='home'
               className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
               smooth>
-              About me
+              Home
             </Link>
-            <Link
+            {/* <Link
               to='#skills'
               className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
               smooth>
@@ -33,7 +33,7 @@ const Navbar = () => {
               className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '
               smooth>
               Projects
-            </Link>{" "}
+            </Link>{" "} */}
             <Link
               to='/blogs'
               className='border-b-2 text-white border-transparent hover:text-gray-800 transition-colors  transform dark:hover:text-green-400 hover:border-blue-500 mx-1.5 '

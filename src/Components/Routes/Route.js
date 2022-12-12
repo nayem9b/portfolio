@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
         path: "project/:id",
         loader: async ({ params }) => {
           return fetch(
-            `http://localhost:5000/project/${params.id}`
+            `https://portfolioserver-nayem9b.vercel.app/project/${params.id}`
           );
         },
         element: <ProjectDetails></ProjectDetails>,

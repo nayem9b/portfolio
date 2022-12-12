@@ -14,7 +14,7 @@ import ProjectCard from "../Project/ProjectCard";
 const Home = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/")
+    fetch("https://portfolioserver-nayem9b.vercel.app/")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
@@ -85,7 +85,7 @@ const Home = () => {
         <div
           class="bg-[url('https://images.pexels.com/photos/4577548/pexels-photo-4577548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  sticky top-0 h-screen flex flex-col  bg-neutral-800 text-white bg-cover"
           id='about_me'>
-          <h1 className='text-center text-6xl lg:mb-20'>About me</h1>
+          <h1 className='text-center text-5xl lg:mb-20'>About me</h1>
           <div className='grid lg:grid-cols-2 sm:grid-cols-1 sm:order-last'>
             <div>
               <h1 className='text-4xl text-center font-bold text-green-400 mb-6'>
@@ -122,7 +122,7 @@ const Home = () => {
         <div
           class="bg-[url('https://images.unsplash.com/photo-1617900879256-45020f3700ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')] bg-opacity-5  sticky top-0 h-screen flex flex-col bg-no-repeat   bg-neutral-800 text-white"
           id='skills'>
-          <h2 class='  text-6xl mx-auto'>My Skills</h2>
+          <h2 class='  text-5xl mx-auto'>My Skills</h2>
           <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-6 mx-8'>
             {" "}
             <div className=''>
@@ -218,8 +218,8 @@ const Home = () => {
         <div
           class="bg-[url('https://images.unsplash.com/photo-1638184984605-af1f05249a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80')]  sticky top-0 h-screen flex flex-col  bg-neutral-800 text-white"
           id='projects'>
-          <h1 className='text-center mb-10 text-6xl'>My Projects</h1>
-          <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-x-5 lg:mx-8'>
+          <h1 className='text-center mb-6 text-5xl'>My Projects</h1>
+          <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-x-5 lg:mx-8 mx-5'>
             {projects.map((project) => (
               <ProjectCard project={project}></ProjectCard>
             ))}

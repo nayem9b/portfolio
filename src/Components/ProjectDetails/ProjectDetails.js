@@ -10,7 +10,7 @@ const ProjectDetails = () => {
       <h1 className='text-5xl  text-center'>
         Project: <span className='text-purple-600 text-5xl'>{name}</span>{" "}
       </h1>
-      <div className='grid grid-cols-3 gap-10 mx-7 mt-10'>
+      <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-10 mx-7 mt-10'>
         <img src={img1} className='' alt='' />
         <img src={img2} className=' ' alt='' />
         <img src={img3} className=' ' alt='' />
@@ -41,9 +41,17 @@ const ProjectDetails = () => {
       <h1>Details:</h1>
 
       <h1 className='w-1/2 h-1/2'>{details}</h1>
-      <Link to='/'>
-        <button className='btn primary'>Go back</button>
+      <Link
+        to='/'
+        class='relative inline-flex rounded-full items-center justify-start px-6 py-1.5 overflow-hidden font-medium transition-all bg-white  hover:bg-white group'>
+        <span class='w-48 h-48 rounded-full rotate-[-40deg] bg-purple-600 absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0'></span>
+        <span class='relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-white'>
+          Go back
+        </span>
       </Link>
+      {/* <Link to='/'>
+        <button className='btn primary'>Go back</button>
+      </Link> */}
     </div>
   );
 };
