@@ -123,7 +123,7 @@ const Home = () => {
           class="bg-[url('https://images.unsplash.com/photo-1617900879256-45020f3700ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')] bg-opacity-5  sticky top-0 h-screen flex flex-col bg-no-repeat   bg-neutral-800 text-white"
           id='skills'>
           <h2 class='  text-5xl mx-auto'>My Skills</h2>
-          <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-6 mx-8'>
+          <div className='grid lg:grid-cols-3 sm:grid-cols-2 mt-6 ml-10'>
             {" "}
             <div className=''>
               <h1 className='text-center text-xl mb-6 font-bold text-green-400'>
