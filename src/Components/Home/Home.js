@@ -104,8 +104,8 @@ const Home = () => {
                 </h1>
                 <h1 className='text-justify'>
                   An enthusiastic web developer with a thirst of learning new
-                  technology. I love to work with MongoDB and React.js. In the
-                  mean time I'm learning Mongoose and Next.js for future use
+                  technology. I love to work with React.js and MongoDB. In the
+                  meantime I'm learning Mongoose and Next.js for future use
                   case.
                 </h1>
               </div>
