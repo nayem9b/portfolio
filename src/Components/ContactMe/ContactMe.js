@@ -1,8 +1,10 @@
-import React, { Children, useRef } from "react";
+import React, { Children, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 
 const ContactMe = () => {
+  let button = localStorage.getItem("clicked");
+
   const send = useRef();
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -11,25 +13,29 @@ const ContactMe = () => {
     const email = form.user_email.value;
     const number = form.user_number.value;
     const message = form.message.value;
-    console.log(name, email, number, message);
-    console.log("service_zgg3r9e", "template_rxwizkk", "Ouyl6nG-O6BcWAykI");
-    emailjs
-      .sendForm(
-        "service_zgg3r9e",
-        "template_rxwizkk",
-        send.current,
-        "Ouyl6nG-O6BcWAykI"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    toast.success("Thank you for contacting me. \n I will communicate soon");
-    form.reset();
+
+    if (name.length > 3 && message.length > 4 && number.length > 6) {
+      emailjs
+        .sendForm(
+          "service_zgg3r9e",
+          "template_rxwizkk",
+          send.current,
+          "Ouyl6nG-O6BcWAykI"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      toast.success("Thank you for contacting me. \n I will communicate soon");
+      localStorage.setItem("clicked", "true");
+      form.reset();
+    } else {
+      toast.error("Provide a valid information");
+    }
   };
   return (
     <div>
@@ -65,7 +71,9 @@ const ContactMe = () => {
               className='textarea textarea-warning w-96 max-w-sm'
               name='message'
               placeholder='Message'></textarea>
-            <button className='btn glass text-right font-bold text-green-400 w-28'>
+            <button
+              className='btn glass text-right font-bold text-green-400 w-28'
+              disabled={button ? true : false}>
               submit
             </button>
           </div>
