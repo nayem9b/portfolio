@@ -37,6 +37,10 @@ const ContactMe = () => {
       toast.error("Provide a valid information");
     }
   };
+  // const handleClick = (event) => {
+  //   event.currentTarget.disabled = true;
+  //   console.log("button clicked");
+  // };
   return (
     <div>
       <div
@@ -73,7 +77,10 @@ const ContactMe = () => {
               placeholder='Message'></textarea>
             <button
               className='btn glass text-right font-bold text-green-400 w-28'
-              disabled={button ? true : false}>
+              disabled={button ? true : false}
+              id='submit'
+              // onClick={handleClick}
+            >
               submit
             </button>
           </div>

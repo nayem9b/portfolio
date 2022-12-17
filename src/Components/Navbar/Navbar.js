@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
+  let theme = localStorage.setItem("theme", true);
   return (
     <div>
       <nav class='   z-10 w-full shadow bg-black'>
