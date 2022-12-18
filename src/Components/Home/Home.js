@@ -82,8 +82,9 @@ const Home = () => {
 
         {/* style="background-image:linear-gradient(rgba(135, 80, 156, 0.9),
         rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg) */}
+        {/* bg-[url('https://images.pexels.com/photos/4577548/pexels-photo-4577548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] */}
         <div
-          class="bg-[url('https://images.pexels.com/photos/4577548/pexels-photo-4577548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  sticky top-0 h-screen flex flex-col  bg-neutral-800 text-white bg-cover"
+          class=' bg-black sticky top-0 h-screen flex flex-col  bg-neutral-800 text-white bg-cover'
           id='about_me'>
           <h1 className='text-center text-5xl lg:mb-20'>About me</h1>
           <div className='grid lg:grid-cols-2 sm:grid-cols-1 sm:order-last'>
