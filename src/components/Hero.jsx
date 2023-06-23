@@ -1,10 +1,8 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import React from "react";
 
 const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
-}
+  return <section className="=relative w-full h-screen mx-auto"></section>;
+};
 
-export default Hero
+export default Hero;
