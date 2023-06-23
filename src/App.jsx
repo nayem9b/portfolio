@@ -1,27 +1,41 @@
-import { useState } from 'react'
+/* eslint-disable no-unused-vars */
 
+import { BrowserRouter } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Experience from "./components/Experience"
+import Tech from "./components/Tech"
+import Works from "./components/Works"
+import Feedbacks from "./components/Feedbacks"
+import Contact from "./components/Contact"
+import Stars from "./components/canvas/Stars"
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <div>
-<h1>Hello</h1>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+ <BrowserRouter>
+ <div className="relative z-0 bg-primary" >
+<div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+<Navbar></Navbar>
+<Hero></Hero>
+
+
+</div>
+<About></About>
+<Experience></Experience>
+  <Tech></Tech>
+  <Works></Works>
+  <Feedbacks></Feedbacks>
+  <div className="relative z-0">
+<Contact></Contact>
+<Stars></Stars>
+
+  </div>
+ </div>
+ 
+ </BrowserRouter>
   )
 }
 
