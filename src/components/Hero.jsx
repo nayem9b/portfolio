@@ -19,9 +19,20 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]"> Razwan Niam</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A Full Stack Developer with a jist to create scalable web
-            application
+            A{" "}
+            <span className="text-[#915eff] font-bold text-4xl">
+              Full Stack Developer{" "}
+            </span>{" "}
+            with a jist to create scalable web application
           </p>
+          <div className="mt-80">
+            <h1 className="text-5xl text-white font-bold">
+              Why am I a good fit?
+            </h1>
+            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+              Scroll to know me
+            </p>
+          </div>
         </div>
       </div>
 
