@@ -38,7 +38,7 @@ const Hero = () => {
 
       <Computers className="w-4 h-4"></Computers>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute mt-8 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-indigo-700 flex justify-center items-start p-2">
             <motion.div
