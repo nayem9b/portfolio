@@ -19,12 +19,30 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import anonna from "./anonna.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import antd from "./tech/antd.png";
+import aws from "./tech/aws.webp";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import firebase from "./tech/firebase.png";
+import graphql from "./tech/graphql.png";
+import jest from "./tech/jest.png";
+import kubernates from "./tech/kubernates.png";
+import nextjs from "./tech/nextjs.png";
+import nginx from "./tech/nginx.png";
+import postgresql from "./tech/postgresql.png";
+import postman from "./tech/postman.png";
+import prisma from "./tech/prisma.png";
+import redis from "./tech/redis.jpg";
+import rtl from "./tech/rtl.png";
+import supabase from "./tech/supabase.png";
+import vitest from "./tech/vitest.png";
+import ubuntu from "./tech/ubuntu.png";
+import jwt from "./tech/jwt.png";
+import bootstrap from "./tech/bootstrap.jpg";
 export {
   logo,
   backend,
@@ -35,9 +53,13 @@ export {
   menu,
   close,
   css,
+  jwt,
+  ubuntu,
   docker,
   figma,
+  rtl,
   git,
+  antd,
   html,
   javascript,
   mongodb,
@@ -46,10 +68,25 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   carrent,
   jobit,
   capitall,
   tripguide,
   anonna,
+  aws,
+  bootstrap,
+  c,
+  cpp,
+  graphql,
+  firebase,
+  jest,
+  kubernates,
+  nextjs,
+  nginx,
+  postgresql,
+  postman,
+  prisma,
+  redis,
+  supabase,
+  vitest,
 };

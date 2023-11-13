@@ -10,6 +10,26 @@ import {
   css,
   reactjs,
   redux,
+  jwt,
+  ubuntu,
+  antd,
+  firebase,
+  aws,
+  bootstrap,
+  c,
+  cpp,
+  graphql,
+  jest,
+  kubernates,
+  nextjs,
+  nginx,
+  postgresql,
+  postman,
+  prisma,
+  redis,
+  rtl,
+  supabase,
+  vitest,
   tailwind,
   nodejs,
   mongodb,
@@ -20,7 +40,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   anonna,
 } from "../assets";
 
@@ -58,19 +77,7 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+export const frontEnd = [
   {
     name: "React JS",
     icon: reactjs,
@@ -80,20 +87,64 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "antd",
+    icon: antd,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "firebase",
+    icon: firebase,
+  },
+  {
+    name: "nextjs",
+    icon: nextjs,
+  },
+  {
+    name: "bootstrap",
+    icon: bootstrap,
+  },
+];
+export const cloudDevOpsTestting = [
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "jest",
+    icon: jest,
+  },
+  {
+    name: "kubernates",
+    icon: kubernates,
+  },
+  {
+    name: "nginx",
+    icon: nginx,
+  },
+  {
+    name: "vitest",
+    icon: vitest,
+  },
+  {
+    name: "rtl",
+    icon: rtl,
+  },
+];
+export const languages = [
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "HTML 5",
@@ -104,6 +155,49 @@ const technologies = [
     icon: css,
   },
   {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
+  },
+];
+export const Backend = [
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+];
+export const databasesORM = [
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "graphql",
+    icon: graphql,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "redis",
+    icon: redis,
+  },
+  {
+    name: "prisma",
+    icon: prisma,
+  },
+  {
+    name: "supabase",
+    icon: supabase,
+  },
+];
+
+export const others = [
+  {
     name: "git",
     icon: git,
   },
@@ -111,7 +205,21 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "jwt",
+    icon: jwt,
+  },
+  {
+    name: "ubuntu",
+    icon: ubuntu,
+  },
 ];
+
+const technologies = [];
 
 const experiences = [
   {
