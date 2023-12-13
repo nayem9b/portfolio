@@ -33,7 +33,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex flex-col-reverse  justify-between">
         <div>
           <motion.div variants={textVariant}>
             <p className={styles.sectionSubText}>Inroduction</p>
@@ -65,12 +65,12 @@ const About = () => {
               problem solving on Hacker Rank
             </span>
           </h1>
-          <div className="grid grid-cols-3 gap-4 mt-20">
+          <div className="grid grid-cols-3 gap-4 mt-20 lg:w-2/5">
             <a href="" target="_blank" className="">
-              <div className="relative inline-flex  group">
+              <div className="relative inline-flex group">
                 <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#6d32bb] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
                 <button
-                  className="relative px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                  className="relative px-5 lg:px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                   role="button"
                 >
                   Resume
@@ -117,7 +117,7 @@ const About = () => {
           </div>
         </div>
 
-        <img src={razwan} alt="" className="w-3/6 rounded-full" />
+        <img src={razwan} alt="" className="w-full lg:w-3/6 rounded-full" />
       </div>
       {/* <div className="  font-extrabold text-transparent lg:text-8xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-700font-bold">
         <Typewriter

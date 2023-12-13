@@ -18,13 +18,13 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]"> Razwan Niam</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <h1 className=" font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100 text-4xl">
             A{" "}
             <span className="text-[#915eff] font-bold text-4xl">
               Full Stack Developer{" "}
             </span>{" "}
             with a zest to create scalable web application
-          </p>
+          </h1>
           <div className="mt-80">
             <h1 className="text-5xl text-white font-bold">
               Why am I a good fit?
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Computers className="w-4 h-4"></Computers>
+      <Computers></Computers>
     </section>
   );
 };
