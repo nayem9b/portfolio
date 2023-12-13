@@ -12,19 +12,17 @@ const Footer = () => {
           <ul className="mt-8 flex gap-6 justify-center">
             <li>
               <a
-                href="/"
+                href="https://www.linkedin.com/in/razwan-niam/"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
               >
-                <span className="sr-only">Instagram</span>
-
                 <img src={linkedin} alt="" className="w-6" />
               </a>
             </li>
             <li>
               <a
-                href="/"
+                href="https://www.facebook.com/the.rezwan.nayem/"
                 rel="noreferrer"
                 target="_blank"
                 className="text-white transition hover:opacity-75"
@@ -48,7 +46,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="/"
+                href="https://twitter.com/razwan_niam"
                 rel="noreferrer"
                 target="_blank"
                 className="text-white transition hover:opacity-75"
@@ -68,7 +66,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="/"
+                href="https://github.com/nayem9b"
                 rel="noreferrer"
                 target="_blank"
                 className="text-white first:transition hover:opacity-75"
@@ -91,12 +89,12 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="/"
+                href="https://wa.me/8801755299400"
                 rel="noreferrer"
                 target="_blank"
                 className="text-white first:transition hover:opacity-75"
               >
-                <span className="sr-only">GitHub</span>
+                <span className="sr-only">Whatsapp</span>
 
                 <img src={whatsapp} alt="" className="w-6" />
               </a>

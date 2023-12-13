@@ -3,7 +3,7 @@
 import React from "react";
 import { styles } from "../styles";
 import Computers from "./canvas/Computers";
-import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 const Hero = () => {
   return (
     <section className="=relative w-full h-screen mx-auto">
@@ -33,10 +33,21 @@ const Hero = () => {
               Scroll to know me
             </p>
           </div>
+          {/* <div className="  font-extrabold text-transparent lg:text-8xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-500 to-pink-700font-bold">
+            <Typewriter
+              options={{
+                strings: [
+                  "Full Stack Developer",
+                  "Back End Developer",
+                  "Front End Developer",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div> */}
         </div>
       </div>
-
-      <Computers></Computers>
     </section>
   );
 };

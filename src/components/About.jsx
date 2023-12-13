@@ -66,7 +66,12 @@ const About = () => {
             </span>
           </h1>
           <div className="grid grid-cols-3 gap-4 mt-20 lg:w-2/5">
-            <a href="" target="_blank" className="">
+            <a
+              href="https://drive.google.com/file/d/1t0xLrT9RUPP_OCjL_f7T3BKv9gLIHGbl/view?usp=sharing"
+              target="_blank"
+              className=""
+              rel="noreferrer"
+            >
               <div className="relative inline-flex group">
                 <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#6d32bb] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
                 <button

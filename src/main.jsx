@@ -8,7 +8,7 @@ import { NextUIProvider } from "@nextui-org/react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <MessengerCustomerChat pageId="183080354880130" appId="168501859620532" />
+    <MessengerCustomerChat pageId="183080354880130" appId="1365382407432231" />
     <NextUIProvider>
       <App />
       <Toaster />
