@@ -12,6 +12,9 @@ import SkillCard from "./SkillCard";
 const Tech = () => {
   return (
     <div>
+      <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-7xl font-black text-center my-16">
+        My Skill Set
+      </h1>
       <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8">
         Cloud Devops & Testing :
       </h1>
