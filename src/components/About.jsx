@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from "react";
@@ -7,6 +8,7 @@ import { styles } from "../styles";
 import { services } from "../constants/index";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Typewriter from "typewriter-effect";
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -44,6 +46,19 @@ const About = () => {
         culpa alias consequatur voluptas! Ipsam cupiditate esse beatae sed
         illum!
       </motion.p>
+      <div className="  font-extrabold text-transparent lg:text-8xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-700font-bold">
+        <Typewriter
+          options={{
+            strings: [
+              "Full Stack Developer",
+              "Back End Developer",
+              "Front End Developer",
+            ],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+      </div>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
