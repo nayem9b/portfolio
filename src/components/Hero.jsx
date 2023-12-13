@@ -23,7 +23,7 @@ const Hero = () => {
             <span className="text-[#915eff] font-bold text-4xl">
               Full Stack Developer{" "}
             </span>{" "}
-            with a jist to create scalable web application
+            with a zest to create scalable web application
           </p>
           <div className="mt-80">
             <h1 className="text-5xl text-white font-bold">
@@ -37,24 +37,6 @@ const Hero = () => {
       </div>
 
       <Computers className="w-4 h-4"></Computers>
-
-      <div className="absolute mt-8 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-indigo-700 flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 rounded-full bg-white mb-1"
-            />
-          </div>
-        </a>
-      </div>
     </section>
   );
 };

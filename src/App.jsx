@@ -10,6 +10,7 @@ import Works from "./components/Works";
 import Feedbacks from "./components/Feedbacks";
 import Contact from "./components/Contact";
 import Stars from "./components/canvas/Stars";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Feedbacks></Feedbacks>
         <div className="relative z-0">
           <Contact></Contact>
+          <Footer />
           <Stars></Stars>
         </div>
       </div>

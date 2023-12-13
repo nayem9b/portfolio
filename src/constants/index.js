@@ -43,6 +43,14 @@ import {
   anonna,
 } from "../assets";
 
+import sheba from "../assets/projects/sheba.png";
+import starttech from "../assets/projects/starttech.png";
+import Anonna from "../assets/projects/anonna.png";
+import bookify from "../assets/projects/bookify.png";
+import papertrail from "../assets/projects/papertrail.png";
+import plx from "../assets/projects/plx.png";
+import Postman from "../assets/projects/postman.jpg";
+import websmasher from "../assets/projects/websmasher.png";
 export const navLinks = [
   {
     id: "about",
@@ -267,49 +275,73 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PC Builder",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that features Computer hardwares and a medium to add products in cart. Uses Nextjs, Redux and Mongodb",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Mongodb",
         color: "pink-text-gradient",
       },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
     ],
-    image: anonna,
-    source_code_link: "https://github.com/",
+    image: starttech,
+    github_link_client: "https://github.com/nayem9b/PC-Builder-Client",
+    github_link_server: "https://github.com/nayem9b/PC-Builder-Server",
+    live_link: "https://pcbuilderhub.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Sheba xyz",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Postgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ant Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Supabase",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sheba,
+    github_link_client: "https://github.com/nayem9b/Sheba.xyz-frontend",
+    github_link_server: "https://github.com/nayem9b/Sheba.xyz-backend",
+    live_link: "https://shebaxyz-gt23ec1s0-nayem9b.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Anonna's Kitchen",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -326,8 +358,150 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: anonna,
+    github_link_client:
+      "https://github.com/nayem9b/Anonna-s-Kitchen-clientside",
+    github_link_server:
+      "https://github.com/nayem9b/Anonna-s-Kitchen-serverside",
+    live_link: "https://anonna-s-kitchen.web.app/",
+  },
+  {
+    name: "Web Smasher",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: websmasher,
+    github_link_client: "https://github.com/nayem9b/Web-Smasher-clientside",
+    github_link_server: "https://github.com/nayem9b/Web-Smasher-serverside",
+    live_link: "https://web-smasher.web.app/",
+  },
+  {
+    name: "Paper Trails",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: papertrail,
+    github_link_client: "https://github.com/nayem9b/Paper-Trail-Clientside",
+    github_link_server: "https://github.com/nayem9b/Paper-Trail-Serverside",
+    live_link: "https://imaginative-parfait-c0d693.netlify.app/",
+  },
+  {
+    name: "Bookify",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bookify,
+    github_link_client: "https://github.com/nayem9b/Bookify-clientside",
+    github_link_server: "https://github.com/nayem9b/Paper-Trail-Serverside",
+    live_link: "https://bookify-a39cf.web.app/",
+  },
+  {
+    name: "PLX",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: plx,
+    github_link_client: "https://github.com/nayem9b/PLX-clientside",
+    github_link_server: "https://github.com/nayem9b/PLX-serverside",
+    live_link: "https://plx-exchange.web.app/",
+  },
+  {
+    name: "Cow Hut",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: postman,
+    github_link_client: "https://github.com/nayem9b/PLX-clientside",
+    github_link_server: "https://github.com/nayem9b/PLX-serverside",
+    live_link: "https://documenter.getpostman.com/view/24754089/2s9YkjCjUt",
+  },
+  {
+    name: "University Management System",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: postman,
+    github_link_client: "https://github.com/nayem9b/PLX-clientside",
+    github_link_server: "https://github.com/nayem9b/PLX-serverside",
+    live_link: "https://documenter.getpostman.com/view/24754089/2s9YkjCjUu",
   },
 ];
 
