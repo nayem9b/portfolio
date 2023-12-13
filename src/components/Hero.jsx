@@ -25,7 +25,7 @@ const Hero = () => {
             </span>{" "}
             with a zest to create scalable web application
           </h1>
-          <div className="mt-80">
+          <div className="lg:mt-80 mt-20">
             <h1 className="text-5xl text-white font-bold">
               Why am I a good fit?
             </h1>
