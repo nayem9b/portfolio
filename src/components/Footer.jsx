@@ -6,7 +6,8 @@ const Footer = () => {
       <footer className="bg-primary">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-            Md Razwan Niam 2024 All Rights Reserved
+            Md Razwan Niam 2024 <br />
+            All Rights Reserved
           </p>
 
           <ul className="mt-8 flex gap-6 justify-center">

@@ -2,8 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { styles } from "../styles";
-import Computers from "./canvas/Computers";
-import Typewriter from "typewriter-effect";
+import { FaArrowDown } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className="=relative w-full h-screen mx-auto">
@@ -26,11 +25,14 @@ const Hero = () => {
             with a zest to create scalable web application
           </h1>
           <div className="lg:mt-80 mt-20">
-            <h1 className="text-5xl text-white font-bold">
+            <h1 className="lg:text-5xl text-4xl text-white font-bold">
               Why am I a good fit?
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              Scroll to know me
+            <p className={`${styles.heroSubText} mt-2 text-white-100 flex`}>
+              Scroll to know me{" "}
+              <span className="ml-5 mt-2">
+                <FaArrowDown />
+              </span>
             </p>
           </div>
         </div>

@@ -12,16 +12,16 @@ import SkillCard from "./SkillCard";
 const Tech = () => {
   return (
     <div>
-      <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-7xl font-black text-center my-16">
+      <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl lg:text-7xl font-black text-center my-6 lg:my-16 ">
         My Skill Set
       </h1>
       <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8">
-        Cloud Devops & Testing :
+        Cloud Devops & Testing
       </h1>
       <div className="flex">
         <div className="hidden lg:block w-60">
           <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
-            Cloud Devops & Testing :
+            Cloud Devops & Testing
           </h1>
         </div>
 
@@ -33,12 +33,12 @@ const Tech = () => {
       </div>
       <div className="my-8">
         <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
-          Databases & ORM :
+          Databases & ORM
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
             <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
-              Databases & ORM :
+              Databases & ORM
             </h1>
           </div>
 
@@ -51,13 +51,13 @@ const Tech = () => {
       </div>
 
       <div>
-        <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8 my-6">
-          Languages :
+        <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
+          Languages
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
-            <h1 className="text-white text-2xl font-semibold hidden lg:block  lg:mr-5">
-              Languages :
+            <h1 className="text-white text-2xl font-semibold hidden lg:block  mr-5">
+              Languages
             </h1>
           </div>
 
@@ -69,13 +69,13 @@ const Tech = () => {
         </div>
       </div>
       <div className="my-0 lg:my-8">
-        <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8 my-6">
-          Front End Techs :
+        <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
+          Front End Techs
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
             <h1 className="text-white text-2xl font-semibold hidden  lg:block mr-5">
-              Front End Techs :
+              Front End Techs
             </h1>
           </div>
 
@@ -88,12 +88,12 @@ const Tech = () => {
       </div>
       <div className="my-0 lg:my-8">
         <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
-          Back End Techs :
+          Back End Techs
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
             <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
-              Back End Techs :
+              Back End Techs
             </h1>
           </div>
 
@@ -105,13 +105,13 @@ const Tech = () => {
         </div>
       </div>
       <div>
-        <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8 my-6">
-          Others :
+        <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
+          Others
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
             <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
-              Others :
+              Others
             </h1>
           </div>
 

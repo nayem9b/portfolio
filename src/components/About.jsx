@@ -65,7 +65,7 @@ const About = () => {
               problem solving on Hacker Rank
             </span>
           </h1>
-          <div className="grid grid-cols-3 gap-4 mt-20 lg:w-2/5">
+          <div className="grid grid-cols-3 gap-4 mt-20 w-full lg:w-2/5">
             <a
               href="https://drive.google.com/file/d/1t0xLrT9RUPP_OCjL_f7T3BKv9gLIHGbl/view?usp=sharing"
               target="_blank"
@@ -75,7 +75,7 @@ const About = () => {
               <div className="relative inline-flex group">
                 <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#6d32bb] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
                 <button
-                  className="relative px-5 lg:px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                  className="relative px-3 lg:px-8 py-4 text-lg lg:font-bold text-white transition-all duration-200 bg-gray-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                   role="button"
                 >
                   Resume
@@ -83,14 +83,14 @@ const About = () => {
               </div>
             </a>
             <a
-              className="inline-flex items-center rounded border-2 border-[#171515] bg-[#171515] px-8 text-center py-3 text-sm font-medium text-white transition-colors hover:bg-transparent focus:outline-none focus:ring active:opacity-75 ml"
+              className="inline-flex items-center rounded border-2 border-[#171515] bg-[#171515] px-3 lg:px-8 text-center py-3 text-sm font-medium text-white transition-colors hover:bg-transparent focus:outline-none focus:ring active:opacity-75 ml"
               href="https://github.com/nayem9b"
               target="_blank"
               rel="noreferrer"
             >
               GitHub
               <svg
-                class="ml-2 h-5 w-5"
+                class="ml-2 h-5 w-3"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -103,14 +103,14 @@ const About = () => {
               </svg>
             </a>
             <a
-              class="inline-flex items-center rounded border-2 border-[#0077b5] bg-[#0077b5] px-8 py-3 text-sm font-medium text-white transition-colors hover:text-black focus:outline-none focus:ring active:opacity-75"
+              class="inline-flex items-center rounded border-2 border-[#0077b5] bg-[#0077b5] px-2 lg:px-8 py-2  lg:py-3 text-sm font-medium text-white transition-colors hover:text-black focus:outline-none focus:ring active:opacity-75"
               href="https://www.linkedin.com/in/razwan-niam/"
               target="_blank"
               rel="noreferrer"
             >
               LinkedIn
               <svg
-                class="ml-2 h-5 w-5"
+                class="ml-2  w-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"

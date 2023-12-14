@@ -76,7 +76,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-[0.75] bg-black-100 lg:p-8  p-3 rounded-2xl"
       >
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider text-center">
           Get in touch
@@ -84,9 +84,12 @@ const Contact = () => {
         <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">
           Contact.
         </h3>
-        <h3 className="text-secondary text-center text-lg">
-          razwanniam1@gmail.com
-        </h3>
+        <a href="mailto:razwanniam1@gmail.com">
+          <h3 className="text-secondary text-center text-lg">
+            razwanniam1@gmail.com
+          </h3>
+        </a>
+
         <h3 className="text-secondary text-center text-lg">+8801755299400</h3>
         <form
           ref={formRef}
