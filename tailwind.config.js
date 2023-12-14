@@ -39,7 +39,7 @@ export default {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/abstract-gradient-neon-lights.jpg')",
+        "hero-pattern": "url('/src/assets/blurry-neon-light-background-opa.jpg')",
       },
     },
   },
