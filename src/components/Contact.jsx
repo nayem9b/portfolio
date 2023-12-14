@@ -30,9 +30,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     if (
-      form.name.length > 5 &&
+      form.name.length > 3 &&
       form.email.length > 5 &&
-      form.message.length > 5
+      form.message.length > 1
     ) {
       emailjs
         .send(
@@ -50,7 +50,12 @@ const Contact = () => {
         .then(
           () => {
             setLoading(false);
-            toast.success("Query Sent to Razwan 😎");
+            toast.success("Query Sent to Razwan 😎", {
+              style: {
+                background: "black",
+                color: "#FFFFFF",
+              },
+            });
 
             setForm({
               name: "",
@@ -61,11 +66,22 @@ const Contact = () => {
           (error) => {
             setLoading(false);
             console.error(error);
-            toast.error("Something went wrong 😢");
+            toast.error("Please provide requested info 😢", {
+              style: {
+                background: "red",
+                color: "#FFFFFF",
+              },
+            });
+            setLoading(false);
           }
         );
     } else {
-      toast.error("Please provide requested info 😢");
+      toast.error("Please provide requested info 😢", {
+        style: {
+          background: "red",
+          color: "#FFFFFF",
+        },
+      });
       setLoading(false);
     }
   };
