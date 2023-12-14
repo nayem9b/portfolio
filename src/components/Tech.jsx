@@ -56,7 +56,7 @@ const Tech = () => {
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
-            <h1 className="text-white text-2xl font-semibold hidden lg:block text-center lg:mr-5">
+            <h1 className="text-white text-2xl font-semibold hidden lg:block  lg:mr-5">
               Languages :
             </h1>
           </div>
@@ -106,12 +106,12 @@ const Tech = () => {
       </div>
       <div>
         <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8 my-6">
-          Misc :
+          Others :
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
             <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
-              Misc :
+              Others :
             </h1>
           </div>
 
@@ -179,4 +179,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "skill");

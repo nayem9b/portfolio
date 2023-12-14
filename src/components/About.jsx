@@ -124,6 +124,7 @@ const About = () => {
 
         <img src={razwan} alt="" className="w-full lg:w-3/6 rounded-full" />
       </div>
+
       {/* <div className="  font-extrabold text-transparent lg:text-8xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-700font-bold">
         <Typewriter
           options={{

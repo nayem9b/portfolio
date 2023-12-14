@@ -55,6 +55,9 @@ import capitalcertificate from "../assets/Certification/capitalcertificate.png";
 import githubcertificate from "../assets/Certification/github.png";
 import nonacademy from "../assets/Certification/Non Academy.png";
 import level1 from "../assets/Certification/level1.png";
+import postmanwebp from "../assets/projects/postmanwebp.webp";
+import firebasefixed from "../assets/projects/firebasefixed.jpg";
+import redisfixed from "../assets/projects/redisfixed.jpg";
 export const navLinks = [
   {
     id: "about",
@@ -63,6 +66,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "skill",
+    title: "Skill",
+  },
+  {
+    id: "project",
+    title: "Project",
   },
   {
     id: "contact",
@@ -108,7 +119,7 @@ export const frontEnd = [
   },
   {
     name: "firebase",
-    icon: firebase,
+    icon: firebasefixed,
   },
   {
     name: "nextjs",
@@ -196,7 +207,7 @@ export const databasesORM = [
   },
   {
     name: "redis",
-    icon: redis,
+    icon: redisfixed,
   },
   {
     name: "prisma",
@@ -219,7 +230,7 @@ export const others = [
   },
   {
     name: "postman",
-    icon: postman,
+    icon: postmanwebp,
   },
   {
     name: "jwt",
@@ -489,7 +500,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: postman,
+    image: postmanwebp,
     github_link_client: "https://github.com/nayem9b/PLX-clientside",
     github_link_server: "https://github.com/nayem9b/PLX-serverside",
     live_link: "https://documenter.getpostman.com/view/24754089/2s9YkjCjUt",
@@ -512,7 +523,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: postman,
+    image: postmanwebp,
     github_link_client: "https://github.com/nayem9b/PLX-clientside",
     github_link_server: "https://github.com/nayem9b/PLX-serverside",
     live_link: "https://documenter.getpostman.com/view/24754089/2s9YkjCjUu",
