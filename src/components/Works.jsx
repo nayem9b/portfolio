@@ -20,7 +20,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] md:w-[300px] w-full">
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] md:w-[300px] lg:w-[370px]">
         <div className="relative w-full h-[230px]">
           <img
             src={image}

@@ -252,10 +252,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "February 2023 - Present",
     points: [
-      "Achieved optimization in API response time, leveraging expertise in implementing in-memory caching in AWS, resulting in a reduction of up to 30%",
       "Collaboratively led a team of 3 members to successfully develop and deploy a Payment Gateway within a challenging 1-week sprint.",
       "Achieved a significant increase of 20% in user engagement for campaigns and organic reach by implementing effective SEO strategies.",
-      "Collaborated with stakeholders to understand requirements and developed a robust dashboard capable of displaying key investment metrics, trends, and performance indicators.",
+      "Collaborated with stakeholders to understand requirements and developed a dashboard capable of displaying key investment metrics, trends, and performance indicators.",
       "Employed debugging tools to diagnose issues, collaborating with the development team to implement bug fixes.",
     ],
   },

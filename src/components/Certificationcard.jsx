@@ -4,7 +4,7 @@ const Certificationcard = ({ testimonial }) => {
   const { image, name, live } = testimonial;
   console.log(live);
   return (
-    <div className="">
+    <div>
       <div className="bg-tertiary p-5 rounded-2xl lg:w-5/6">
         <img
           alt="project_image"
@@ -21,7 +21,7 @@ const Certificationcard = ({ testimonial }) => {
               href={live}
               target="_blank"
               rel="noreferrer"
-              className="text-white ml-3 text-3xl"
+              className="text-white ml-3 text-3xl cursor-pointer"
             >
               <TbExternalLink />
             </a>

@@ -137,7 +137,7 @@ const About = () => {
           <h1 className="text-white font-extrabold text-4xl">
             Full Stack Developer
           </h1>
-          <h1 className="text-white text-2xl">Experience: 1 year</h1>
+          <h1 className="text-white text-2xl mt-5">Experience: 1 year</h1>
           <h1 className="text-white text-2xl">
             Studies: Electrical and Electronic Engineering
           </h1>
