@@ -2,7 +2,7 @@ import { TbExternalLink } from "react-icons/tb";
 
 const Certificationcard = ({ testimonial }) => {
   const { image, name, live } = testimonial;
-  console.log(image);
+  console.log(live);
   return (
     <div className="">
       <div className="bg-tertiary p-5 rounded-2xl lg:w-5/6">

@@ -29,36 +29,45 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          form_name: form.name,
-          to_name: "Portfolio",
-          form_email: form.email,
-          to_email: "razwanniam1@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          toast.success("Query Sent to Razwan 😎");
+    if (
+      form.name.length > 5 &&
+      form.email.length > 5 &&
+      form.message.length > 5
+    ) {
+      emailjs
+        .send(
+          import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+          {
+            form_name: form.name,
+            to_name: "Portfolio",
+            form_email: form.email,
+            to_email: "razwanniam1@gmail.com",
+            message: form.message,
+          },
+          import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        )
+        .then(
+          () => {
+            setLoading(false);
+            toast.success("Query Sent to Razwan 😎");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-          toast.error("Something went wrong 😢");
-        }
-      );
+            setForm({
+              name: "",
+              email: "",
+              message: "",
+            });
+          },
+          (error) => {
+            setLoading(false);
+            console.error(error);
+            toast.error("Something went wrong 😢");
+          }
+        );
+    } else {
+      toast.error("Please provide requested info 😢");
+      setLoading(false);
+    }
   };
 
   return (
