@@ -25,7 +25,7 @@ const Tech = () => {
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 lg:gap-20 mx-auto">
+        <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
           {cloudDevOpsTestting.map((technology) => (
             <SkillCard technology={technology} key={technology} />
           ))}
@@ -42,7 +42,7 @@ const Tech = () => {
             </h1>
           </div>
 
-          <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 lg:gap-20 mx-auto">
+          <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
             {databasesORM.map((technology) => (
               <SkillCard technology={technology} key={technology} />
             ))}
@@ -61,7 +61,7 @@ const Tech = () => {
             </h1>
           </div>
 
-          <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 lg:gap-20 mx-auto">
+          <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
             {languages.map((technology) => (
               <SkillCard technology={technology} key={technology} />
             ))}
@@ -79,7 +79,7 @@ const Tech = () => {
             </h1>
           </div>
 
-          <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 lg:gap-20 mx-auto">
+          <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
             {frontEnd.map((technology) => (
               <SkillCard technology={technology} key={technology} />
             ))}
@@ -97,7 +97,7 @@ const Tech = () => {
             </h1>
           </div>
 
-          <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 lg:gap-20 mx-auto">
+          <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
             {Backend.map((technology) => (
               <SkillCard technology={technology} key={technology} />
             ))}
@@ -115,7 +115,7 @@ const Tech = () => {
             </h1>
           </div>
 
-          <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 lg:gap-20 mx-auto">
+          <div className="grid lg:grid-cols-8 grid-cols-4 gap-6 md:grid-cols-6 lg:gap-20 mx-auto">
             {others.map((technology) => (
               <SkillCard technology={technology} key={technology} />
             ))}

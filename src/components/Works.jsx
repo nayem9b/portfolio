@@ -20,7 +20,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] md:w-[300px] w-full">
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -88,13 +88,11 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className="text-center">
-        <h2 className="text-white font-black text-4xl lg:text-7xl text-center ">
-          Projects.
-        </h2>
-      </div>
+      <h2 className="text-white font-black text-4xl lg:text-7xl text-center ">
+        Projects.
+      </h2>
 
-      <div className=" mt-14 lg:mt-20 flex flex-wrap gap-7">
+      <div className="mt-14 lg:mt-20 grid grid-cols-1 lg:grid-cols-3  md:grid-cols-2 gap-7 md:gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

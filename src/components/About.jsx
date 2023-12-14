@@ -68,7 +68,7 @@ const About = () => {
               </span>
             </h1>
             <div className="block lg:hidden">
-              <div className="grid grid-cols-3 gap-4 mt-6 w-full lg:w-4/5 ">
+              <div className="grid grid-cols-3 gap-4 mt-6 w-full lg:w-4/5 md:w-3/6 ">
                 <a
                   href="https://drive.google.com/file/d/1t0xLrT9RUPP_OCjL_f7T3BKv9gLIHGbl/view?usp=sharing"
                   target="_blank"
@@ -126,7 +126,11 @@ const About = () => {
             </div>
           </div>
 
-          <img src={razwan} alt="" className="w-full lg:w-5/6 rounded-full" />
+          <img
+            src={razwan}
+            alt=""
+            className="w-full md:w-3/6 lg:w-5/6 rounded-full"
+          />
         </div>
         <div className="mt-20 hidden lg:block">
           <h1 className="text-white font-extrabold text-5xl">Md Razwan Niam</h1>
