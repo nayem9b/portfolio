@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]"> Razwan Niam</span>
           </h1>
-          <h1 className=" font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100 text-4xl">
+          <h1 className=" font-medium text-xl text-white-100 lg:text-4xl mt-10">
             A{" "}
             <span className="text-[#915eff] font-bold text-4xl">
               Full Stack Developer{" "}
@@ -33,19 +33,6 @@ const Hero = () => {
               Scroll to know me
             </p>
           </div>
-          {/* <div className="  font-extrabold text-transparent lg:text-8xl sm:text-5xl bg-clip-text bg-gradient-to-r from-purple-500 to-pink-700font-bold">
-            <Typewriter
-              options={{
-                strings: [
-                  "Full Stack Developer",
-                  "Back End Developer",
-                  "Front End Developer",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </div> */}
         </div>
       </div>
     </section>

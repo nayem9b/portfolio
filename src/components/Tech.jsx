@@ -15,7 +15,7 @@ const Tech = () => {
       <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-7xl font-black text-center my-16">
         My Skill Set
       </h1>
-      <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8">
+      <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8">
         Cloud Devops & Testing :
       </h1>
       <div className="flex">
@@ -32,7 +32,7 @@ const Tech = () => {
         </div>
       </div>
       <div className="my-8">
-        <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8 my-6">
+        <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
           Databases & ORM :
         </h1>
         <div className="flex">
@@ -56,7 +56,7 @@ const Tech = () => {
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
-            <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
+            <h1 className="text-white text-2xl font-semibold hidden lg:block text-center lg:mr-5">
               Languages :
             </h1>
           </div>
@@ -74,7 +74,7 @@ const Tech = () => {
         </h1>
         <div className="flex">
           <div className="hidden lg:block w-60">
-            <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
+            <h1 className="text-white text-2xl font-semibold hidden  lg:block mr-5">
               Front End Techs :
             </h1>
           </div>
@@ -87,7 +87,7 @@ const Tech = () => {
         </div>
       </div>
       <div className="my-0 lg:my-8">
-        <h1 className="text-white text-2xl font-semibold lg:hidden mr-5 text-center mb-8 my-6">
+        <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
           Back End Techs :
         </h1>
         <div className="flex">
