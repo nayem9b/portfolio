@@ -51,6 +51,10 @@ import papertrail from "../assets/projects/papertrail.png";
 import plx from "../assets/projects/plx.png";
 import Postman from "../assets/projects/postman.jpg";
 import websmasher from "../assets/projects/websmasher.png";
+import capitalcertificate from "../assets/Certification/capitalcertificate.png";
+import githubcertificate from "../assets/Certification/github.png";
+import nonacademy from "../assets/Certification/Non Academy.png";
+import level1 from "../assets/Certification/level1.png";
 export const navLinks = [
   {
     id: "about",
@@ -246,30 +250,40 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+export const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Capitall",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: capitalcertificate,
+    live: "https://drive.google.com/file/d/1asQjao25paRDcQZH9pJyfPlNyzJdqxgV/view?usp=sharing",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+    name: "Programming Hero",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: level1,
+    live: "https://drive.google.com/file/d/1ZevC3GwenTcggDIdvT5i0LQmP53SrN3O/view?usp=sharing",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Non Academy",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: nonacademy,
+    live: "https://drive.google.com/file/d/1RjduKma89yd6sEEHjPQful99VaJ53m3T/view?usp=sharing",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Github",
+    designation: "CTO",
+    image: githubcertificate,
+    live: "https://www.udemy.com/certificate/UC-fd278365-1651-463a-bf2c-00ef1119fbb1/",
   },
 ];
 
@@ -505,4 +519,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

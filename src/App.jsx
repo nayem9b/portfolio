@@ -24,11 +24,10 @@ function App() {
         <Experience></Experience>
         <Tech></Tech>
         <Works></Works>
-        <Feedbacks></Feedbacks>
+        <Feedbacks />
         <div className="relative z-0">
           <Contact></Contact>
           <Footer />
-          <Stars></Stars>
         </div>
       </div>
     </BrowserRouter>
