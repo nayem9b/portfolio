@@ -10,6 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Typewriter from "typewriter-effect";
 import razwan from "../assets/Md Razwan Niam Filtered.png";
+import nayem from "../assets/devsecops_nayem.jpg"
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -127,7 +128,7 @@ const About = () => {
           </div>
 
           <img
-            src={razwan}
+            src={nayem}
             alt=""
             className="w-full md:w-3/6 lg:w-5/6 rounded-full"
           />

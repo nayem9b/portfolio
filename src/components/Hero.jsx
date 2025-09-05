@@ -15,16 +15,17 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]"> Razwan Niam</span>
+           
+            <span className="text-[#915eff]"> Razwan Niam</span>
           </h1>
           <h1 className=" font-medium text-xl text-white-100 lg:text-4xl mt-10">
-            A{" "}
-            <span className="text-[#915eff] font-bold text-4xl">
-              Full Stack Developer{" "}
+            Software Engineer with expertise in <span className="text-[#ecf39e] font-bold text-4xl">
+              Full Stack + Cloud DevOps.
             </span>{" "}
-            with a zest to create scalable web application
+            <br />
+            <p>passionate about System Design and MLOps.</p>
           </h1>
-          <div className="lg:mt-80 mt-20">
+          {/* <div className="lg:mt-80 mt-20">
             <h1 className="lg:text-5xl text-4xl text-white font-bold">
               Why am I a good fit?
             </h1>
@@ -34,7 +35,7 @@ const Hero = () => {
                 <FaArrowDown />
               </span>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
