@@ -1,3 +1,65 @@
+/* Glassmorphism Gradient Animation */
+.glass-gradient-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.glass-gradient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.7;
+  animation: moveBlobs 16s ease-in-out infinite alternate;
+}
+
+.glass-gradient-blob1 {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(135deg, #915eff 0%, #ecf39e 100%);
+  top: -120px;
+  left: -120px;
+  animation-delay: 0s;
+}
+.glass-gradient-blob2 {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(135deg, #00cea8 0%, #bf61ff 100%);
+  bottom: -100px;
+  right: -100px;
+  animation-delay: 4s;
+}
+.glass-gradient-blob3 {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(135deg, #56ccf2 0%, #ec008c 100%);
+  top: 40%;
+  left: 60%;
+  animation-delay: 8s;
+}
+
+@keyframes moveBlobs {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-40px) scale(1.1);
+  }
+  100% {
+    transform: translateY(40px) scale(0.95);
+  }
+}
+
+.glassmorphism {
+  background: rgba(30, 30, 60, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 24px;
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;

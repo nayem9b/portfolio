@@ -38,9 +38,9 @@ export default {
       screens: {
         xs: "450px",
       },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/blurry-neon-light-background-opa.jpg')",
-      },
+      // backgroundImage: {
+      //   "hero-pattern": "url('/src/assets/blurry-neon-light-background-opa.jpg')",
+      // },
     },
   },
   darkMode: "class",
