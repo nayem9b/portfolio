@@ -3,6 +3,7 @@ import {
   Backend,
   cloudDevOpsTestting,
   databasesORM,
+  devOps,
   frontEnd,
   languages,
   others,
@@ -44,6 +45,25 @@ const Tech = () => {
 
           <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
             {databasesORM.map((technology) => (
+              <SkillCard technology={technology} key={technology} />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="my-8">
+        <h1 className="text-white text-2xl font-semibold lg:hidden lg:mr-5 text-center mb-8 my-6">
+          Databases & ORM
+        </h1>
+        <div className="flex">
+          <div className="hidden lg:block w-60">
+            <h1 className="text-white text-2xl font-semibold hidden lg:block mr-5">
+              Databases & ORM
+            </h1>
+          </div>
+
+          <div className="grid lg:grid-cols-8 grid-cols-4 md:grid-cols-6 gap-6 lg:gap-20 mx-auto">
+            {devOps.map((technology) => (
               <SkillCard technology={technology} key={technology} />
             ))}
           </div>

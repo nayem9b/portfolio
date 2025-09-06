@@ -44,10 +44,33 @@ import ubuntu from "./tech/ubuntu.png";
 import jwt from "./tech/jwt.png";
 import bootstrap from "./tech/bootstrap.jpg";
 import sympa from "./company/sympa.png"
+  import jenkins from "../assets/tech/DevOps/jenkins.png"
+import ansible from "./tech/DevOps/ansible.jpg"
+import argocd from "../assets/tech/DevOps/argocd.png"
+import elk from "../assets/tech/DevOps/elk.png"
+import gitlab from "../assets/tech/DevOps/gitlab.jpg"
+import grafana from "../assets/tech/DevOps/grafana.jpeg"
+import helm from "../assets/tech/DevOps/helm.png"
+import kustomize from "../assets/tech/DevOps/kustomize.png"
+import prometheous from "../assets/tech/DevOps/prometheous.png"
+import terraform from "../assets/tech/DevOps/terraform.png"
+import vault from "../assets/tech/DevOps/vault.png"
+
 export {
   logo,
   backend,
   creator,
+  ansible,
+  argocd,
+  elk,
+  gitlab,
+  grafana,
+  helm,
+  kustomize,
+  prometheous,
+  terraform,
+  vault,
+  jenkins,
   mobile,
   web,
   github,

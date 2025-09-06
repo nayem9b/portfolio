@@ -59,6 +59,8 @@ import level1 from "../assets/Certification/level1.png";
 import postmanwebp from "../assets/projects/postmanwebp.webp";
 import firebasefixed from "../assets/projects/firebasefixed.jpg";
 import redisfixed from "../assets/projects/redisfixed.jpg";
+import {jenkins,ansible, argocd,elk,gitlab,grafana,helm,kustomize,prometheous,terraform,vault} from "../assets"
+
 export const navLinks = [
   {
     id: "about",
@@ -227,39 +229,39 @@ export const databasesORM = [
 export const devOps = [
   {
     name: "Jenkins",
-    icon: mongodb,
+    icon: jenkins,
   },
   {
     name: "ansible",
-    icon: graphql,
+    icon: ansible,
   },
   {
     name: "terraform",
-    icon: postgresql,
+    icon: terraform,
   },
   {
     name: "argocd",
-    icon: redisfixed,
+    icon: argocd,
   },
   {
     name: "nginx",
-    icon: prisma,
+    icon: nginx,
   },
   {
     name: "helm",
-    icon: supabase,
+    icon: helm,
   },
   {
     name: "grafana",
-    icon: prisma,
+    icon: grafana,
   },
   {
     name: "ELK",
-    icon: supabase,
+    icon: elk,
   },
   {
     name: "gitlab ci/cd",
-    icon: supabase,
+    icon: gitlab,
   },
   {
     name: "github actions",
@@ -267,7 +269,7 @@ export const devOps = [
   },
   {
     name: "kustomize",
-    icon: supabase,
+    icon: kustomize,
   },
 ];
 
