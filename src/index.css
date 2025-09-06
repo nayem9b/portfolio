@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Glassmorphism Gradient Animation */
 .glass-gradient-bg {
   position: absolute;
@@ -60,11 +66,7 @@
   border-radius: 24px;
   border: 1.5px solid rgba(255, 255, 255, 0.18);
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
   margin: 0;

@@ -40,6 +40,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  sympa,
   anonna,
 } from "../assets";
 
@@ -70,6 +71,10 @@ export const navLinks = [
   {
     id: "skill",
     title: "Skill",
+  },
+  {
+    id: "blogs",
+    title: "Blogs",
   },
   {
     id: "project",
@@ -250,12 +255,26 @@ const experiences = [
     company_name: "Capitall",
     icon: capitall,
     iconBg: "#383E56",
-    date: "February 2023 - Present",
+    date: "February 2023 - December 2023",
     points: [
       "Collaboratively led a team of 3 members to successfully develop and deploy a Payment Gateway within a challenging 1-week sprint.",
       "Achieved a significant increase of 20% in user engagement for campaigns and organic reach by implementing effective SEO strategies.",
       "Collaborated with stakeholders to understand requirements and developed a dashboard capable of displaying key investment metrics, trends, and performance indicators.",
       "Employed debugging tools to diagnose issues, collaborating with the development team to implement bug fixes.",
+    ],
+  },
+  {
+    title: "Industrial Trainee",
+    company_name: "Sympa Solar Power Ltd",
+    icon: sympa,
+    iconBg: "#edf0f5",
+    date: "June 2025 - July 2025",
+    points: [
+"Assisted in design, installation, and commissioning of solar PV systems.",
+"Conducted site inspections and performance monitoring for efficiency.",
+"Supported maintenance of inverters, panels, and protection systems.",
+"Prepared technical documentation and compliance reports.",
+"Gained practical exposure to grid synchronization and safety protocols."
     ],
   },
 ];

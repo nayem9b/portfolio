@@ -34,14 +34,13 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <div className="lg:grid grid-cols-2">
+      <div className="lg:grid grid-cols-2 gap-20">
         <div className="flex flex-col-reverse justify-between">
           <div>
             <motion.div variants={textVariant}>
-              <p className={styles.sectionSubText}>Inroduction</p>
+         
               <h2 className={styles.sectionHeadText}>Overview</h2>
             </motion.div>
-
             <h1 className="text-white  text-base lg:text-xl">
               ● Full Stack Developer with industry{" "}
               <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
@@ -59,14 +58,8 @@ const About = () => {
                 Capitall
               </span>{" "}
               as a Full Stack Developer <br />
-              ● Studying Electrical Engineering Final year <br />● Uses{" "}
-              <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
-                Linux
-              </span>{" "}
-              and do{" "}
-              <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
-                problem solving on Hacker Rank
-              </span>
+        
+             
             </h1>
             <div className="block lg:hidden">
               <div className="grid grid-cols-3 gap-4 mt-6 w-full lg:w-4/5 md:w-3/6 ">
@@ -134,18 +127,18 @@ const About = () => {
           />
         </div>
         <div className="mt-20 hidden lg:block">
-          <h1 className="text-white font-extrabold text-5xl">Md Razwan Niam</h1>
-          <h1 className="text-white font-extrabold text-4xl">
-            Full Stack Developer
+          <h1 className="text-white font-extrabold text-4xl">Md Razwan Niam</h1>
+          <h1 className="text-white font-extrabold text-3xl mt-3">
+            Full Stack, Cloud DevOps and System Design Engineer
           </h1>
-          <h1 className="text-white text-2xl mt-5">Experience: 1 year</h1>
-          <h1 className="text-white text-2xl">
-            Studies: Electrical and Electronic Engineering
+          <h1 className="text-white text-xl mt-5">Experience: 2+ years</h1>
+          <h1 className="text-white text-xl">
+            Completed B.Sc(Engg) in Electrical and Electronic Engineering
           </h1>
-          <h1 className="text-white text-2xl mt-1">
+          <h1 className="text-white text-lg mt-1">
             Hajee Mohammad Danesh Science & Technology University
           </h1>
-          <h1 className="text-white text-2xl">Dinajpur, Bangladesh</h1>
+          <h1 className="text-white text-lg">Dinajpur, Bangladesh</h1>
           <div className="grid grid-cols-3 gap-4 mt-20 w-full lg:w-4/5">
             <a
               href="https://drive.google.com/file/d/1t0xLrT9RUPP_OCjL_f7T3BKv9gLIHGbl/view?usp=sharing"
@@ -184,7 +177,7 @@ const About = () => {
               </svg>
             </a>
             <a
-              class="inline-flex items-center rounded border-2 border-[#0077b5] bg-[#0077b5] px-2 lg:px-8 py-2  lg:py-3 text-sm font-medium text-white transition-colors hover:text-black focus:outline-none focus:ring active:opacity-75"
+              class="inline-flex items-center rounded border-2 border-[#0077b5] bg-[#07a2f5] px-2 lg:px-8 py-2  lg:py-3 text-sm font-medium text-white transition-colors hover:text-black focus:outline-none focus:ring active:opacity-75"
               href="https://www.linkedin.com/in/razwan-niam/"
               target="_blank"
               rel="noreferrer"

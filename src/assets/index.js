@@ -43,6 +43,7 @@ import vitest from "./tech/vitest.png";
 import ubuntu from "./tech/ubuntu.png";
 import jwt from "./tech/jwt.png";
 import bootstrap from "./tech/bootstrap.jpg";
+import sympa from "./company/sympa.png"
 export {
   logo,
   backend,
@@ -89,4 +90,5 @@ export {
   redis,
   supabase,
   vitest,
+  sympa
 };
