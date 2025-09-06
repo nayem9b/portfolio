@@ -19,7 +19,8 @@ const Hero = () => {
           </h1>
           {/* Short Intro Section */}
           <p className="text-lg text-white-100 max-w-xl">
-            Software Engineer with expertise in Full Stack WebApp and cloud technologies, dedicated to delivering reliable, cloud-enabled applications.
+            Software Engineer with expertise in End to End Full Stack (Py+Ts) Web Application  and cloud technologies.
+            <br />Dedicated to delivering reliable, cloud-enabled applications.
           </p>
           {/* Skills Highlight Section */}
           <div className="flex flex-wrap gap-3 mt-2">

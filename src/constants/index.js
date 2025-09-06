@@ -224,6 +224,53 @@ export const databasesORM = [
   },
 ];
 
+export const devOps = [
+  {
+    name: "Jenkins",
+    icon: mongodb,
+  },
+  {
+    name: "ansible",
+    icon: graphql,
+  },
+  {
+    name: "terraform",
+    icon: postgresql,
+  },
+  {
+    name: "argocd",
+    icon: redisfixed,
+  },
+  {
+    name: "nginx",
+    icon: prisma,
+  },
+  {
+    name: "helm",
+    icon: supabase,
+  },
+  {
+    name: "grafana",
+    icon: prisma,
+  },
+  {
+    name: "ELK",
+    icon: supabase,
+  },
+  {
+    name: "gitlab ci/cd",
+    icon: supabase,
+  },
+  {
+    name: "github actions",
+    icon: supabase,
+  },
+  {
+    name: "kustomize",
+    icon: supabase,
+  },
+];
+
 export const others = [
   {
     name: "git",

@@ -12,6 +12,7 @@ const SkillCard = ({ technology }) => {
             className="z-0 w-16 h-16 lg:w-24 lg:h-24 object-cover bg-white"
             src={technology.icon}
           />
+          <h1 className="text-center font-bold">{technology?.name}</h1>
         </Card>
       </div>
     </div>

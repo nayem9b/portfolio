@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import Typewriter from "typewriter-effect";
 import razwan from "../assets/Md Razwan Niam Filtered.png";
-import nayem from "../assets/devsecops_nayem.jpg"
+import nayem from "../assets/devsecops_nayem.jpg";
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -38,29 +38,41 @@ const About = () => {
         <div className="flex flex-col-reverse justify-between">
           <div>
             <motion.div variants={textVariant}>
-         
               <h2 className={styles.sectionHeadText}>Overview</h2>
             </motion.div>
-            <h1 className="text-white  text-base lg:text-xl">
-              ● Full Stack Developer with industry{" "}
+            <h1 className="text-white text-base lg:text-xl leading-relaxed">
+              • Full Stack Engineer with{" "}
               <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
-                experience of 1 year.
+                2 years of industry experience
               </span>{" "}
               <br />
-              ● Love to work in Backend And API intregation <br /> ● On way to
-              SDE
-              <br />● Will{" "}
+              • Strong focus on Backend API integration with {""}
+               <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
+               Node.js, FastAPI {""}
+              </span>
+               
+              and building {""}
+               <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
+               DevSecOps CI/CD
+              </span> pipeline.
+              <br />
+              • Expertise in Microservices, System Design and Infrastructure
+              Automation <br />• From Design, Code, E2E testing and Deployment
+              to Infrastructure management, Container orchestration with {" "}
               <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
-                venture Cloud and DevOps
+                Kubernetes
               </span>{" "}
-              in 2024. <br />● Worked with venture firm{" "}
-              <span className="italic font-bold text-xl underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
-                Capitall
-              </span>{" "}
-              as a Full Stack Developer <br />
-        
-             
+              and Visualization with {" "}
+              <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
+                Grafana {""}
+              </span>
+              and {" "}
+              <span className="underline decoration-violet-700 underline-offset-4 selection:bg-purple-600">
+                ELK {""}
+              </span>
+              Stack.
             </h1>
+
             <div className="block lg:hidden">
               <div className="grid grid-cols-3 gap-4 mt-6 w-full lg:w-4/5 md:w-3/6 ">
                 <a
@@ -127,18 +139,18 @@ const About = () => {
           />
         </div>
         <div className="mt-20 hidden lg:block">
-          <h1 className="text-white font-extrabold text-4xl">Md Razwan Niam</h1>
-          <h1 className="text-white font-extrabold text-3xl mt-3">
+          <h1 className="text-white font-extrabold text-3xl">Md Razwan Niam</h1>
+          <h1 className="text-white font-extrabold text-2xl mt-3">
             Full Stack, Cloud DevOps and System Design Engineer
           </h1>
           <h1 className="text-white text-xl mt-5">Experience: 2+ years</h1>
           <h1 className="text-white text-xl">
             Completed B.Sc(Engg) in Electrical and Electronic Engineering
           </h1>
-          <h1 className="text-white text-lg mt-1">
+          <h1 className="text-white text-base mt-1">
             Hajee Mohammad Danesh Science & Technology University
           </h1>
-          <h1 className="text-white text-lg">Dinajpur, Bangladesh</h1>
+          <h1 className="text-white text-base">Dhaka, Bangladesh</h1>
           <div className="grid grid-cols-3 gap-4 mt-20 w-full lg:w-4/5">
             <a
               href="https://drive.google.com/file/d/1t0xLrT9RUPP_OCjL_f7T3BKv9gLIHGbl/view?usp=sharing"
