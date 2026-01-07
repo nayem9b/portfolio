@@ -63,6 +63,7 @@ import postmanwebp from "../assets/projects/postmanwebp.webp";
 import firebasefixed from "../assets/projects/firebasefixed.jpg";
 import redisfixed from "../assets/projects/redisfixed.jpg";
 import {jenkins,ansible, argocd,elk,gitlab,grafana,helm,kustomize,prometheous,terraform,vault} from "../assets"
+import {bash, aws_v, gh_a, prom, fast, python} from "../assets/index"
 
 export const navLinks = [
   {
@@ -75,15 +76,12 @@ export const navLinks = [
   },
   {
     id: "skill",
-    title: "Skill",
+    title: "Skills",
   },
-  {
-    id: "blogs",
-    title: "Blogs",
-  },
+ 
   {
     id: "project",
-    title: "Project",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -112,62 +110,91 @@ const services = [
 
 export const frontEnd = [
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "antd",
-    icon: antd,
-  },
-  {
-    name: "firebase",
-    icon: firebasefixed,
-  },
-  {
-    name: "nextjs",
+    name: "Nextjs",
     icon: nextjs,
   },
   {
-    name: "bootstrap",
+    name: "Redux",
+    icon: redux,
+  },
+  {
+    name: "Tailwind",
+    icon: tailwind,
+  },
+  {
+    name: "Ant Design",
+    icon: antd,
+  },
+  {
+    name: "Firebase",
+    icon: firebasefixed,
+  },
+
+  {
+    name: "Bootstrap",
     icon: bootstrap,
   },
 ];
 export const cloudDevOpsTestting = [
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
   {
-    name: "aws",
-    icon: aws,
+    name: "AWS",
+    icon: aws_v,
   },
   {
-    name: "jest",
-    icon: jest,
-  },
-  {
-    name: "kubernates",
+    name: "Kubernetes",
     icon: kubernates,
   },
   {
-    name: "nginx",
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "Ansible",
+    icon: ansible,
+  },
+  {
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Argo CD",
+    icon: argocd,
+  },
+  {
+    name: "Nginx",
     icon: nginx,
   },
   {
-    name: "vitest",
-    icon: vitest,
+    name: "Helm",
+    icon: helm,
   },
   {
-    name: "rtl",
-    icon: rtl,
+    name: "Prometheus",
+    icon: prom,
+  },
+  {
+    name: "Grafana",
+    icon: grafana,
+  },
+  {
+    name: "ELK Stack",
+    icon: elk,
+  },
+  {
+    name: "GitLab CI/CD",
+    icon: gitlab,
+  },
+  {
+    name: "GitHub Actions",
+    icon: gh_a,
+  },
+  {
+    name: "Kustomize",
+    icon: kustomize,
   },
 ];
 export const languages = [
@@ -180,26 +207,26 @@ export const languages = [
     icon: javascript,
   },
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "c",
-    icon: c,
-  },
-  {
-    name: "cpp",
+    name: "C++",
     icon: cpp,
   },
+  {
+    name: "Bash",
+    icon: bash,
+  }
 ];
 export const Backend = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Fast API",
+    icon: fast,
   },
 ];
 export const databasesORM = [
@@ -208,24 +235,20 @@ export const databasesORM = [
     icon: mongodb,
   },
   {
-    name: "graphql",
-    icon: graphql,
-  },
-  {
-    name: "postgresql",
+    name: "PostgreSQL",
     icon: postgresql,
   },
   {
-    name: "redis",
+    name: "Supabase",
+    icon: supabase,
+  },
+  {
+    name: "Redis",
     icon: redisfixed,
   },
   {
-    name: "prisma",
+    name: "Prisma",
     icon: prisma,
-  },
-  {
-    name: "supabase",
-    icon: supabase,
   },
 ];
 
@@ -278,23 +301,19 @@ export const devOps = [
 
 export const others = [
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "postman",
+    name: "Postman",
     icon: postmanwebp,
   },
   {
-    name: "jwt",
+    name: "JWT",
     icon: jwt,
   },
   {
-    name: "ubuntu",
+    name: "Ubuntu",
     icon: ubuntu,
   },
 ];
@@ -302,6 +321,20 @@ export const others = [
 const technologies = [];
 
 const experiences = [
+  {
+    title: "Industrial Trainee",
+    company_name: "Sympa Solar Power Ltd",
+    icon: sympa,
+    iconBg: "#edf0f5",
+    date: "June 2025 - July 2025",
+    points: [
+      "Assisted in design, installation, and commissioning of solar PV systems.",
+      "Conducted site inspections and performance monitoring for efficiency.",
+      "Supported maintenance of inverters, panels, and protection systems.",
+      "Prepared technical documentation and compliance reports.",
+      "Gained practical exposure to grid synchronization and safety protocols.",
+    ],
+  },
   {
     title: "Full Stack Developer",
     company_name: "Capitall",
@@ -313,20 +346,6 @@ const experiences = [
       "Achieved a significant increase of 20% in user engagement for campaigns and organic reach by implementing effective SEO strategies.",
       "Collaborated with stakeholders to understand requirements and developed a dashboard capable of displaying key investment metrics, trends, and performance indicators.",
       "Employed debugging tools to diagnose issues, collaborating with the development team to implement bug fixes.",
-    ],
-  },
-  {
-    title: "Industrial Trainee",
-    company_name: "Sympa Solar Power Ltd",
-    icon: sympa,
-    iconBg: "#edf0f5",
-    date: "June 2025 - July 2025",
-    points: [
-"Assisted in design, installation, and commissioning of solar PV systems.",
-"Conducted site inspections and performance monitoring for efficiency.",
-"Supported maintenance of inverters, panels, and protection systems.",
-"Prepared technical documentation and compliance reports.",
-"Gained practical exposure to grid synchronization and safety protocols."
     ],
   },
 ];

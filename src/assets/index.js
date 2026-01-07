@@ -44,7 +44,7 @@ import ubuntu from "./tech/ubuntu.png";
 import jwt from "./tech/jwt.png";
 import bootstrap from "./tech/bootstrap.jpg";
 import sympa from "./company/sympa.png"
-  import jenkins from "../assets/tech/DevOps/jenkins.png"
+import jenkins from "../assets/tech/DevOps/jenkins.png"
 import ansible from "./tech/DevOps/ansible.jpg"
 import argocd from "../assets/tech/DevOps/argocd.png"
 import elk from "../assets/tech/DevOps/elk.png"
@@ -55,7 +55,12 @@ import kustomize from "../assets/tech/DevOps/kustomize.png"
 import prometheous from "../assets/tech/DevOps/prometheous.png"
 import terraform from "../assets/tech/DevOps/terraform.png"
 import vault from "../assets/tech/DevOps/vault.png"
-
+import bash from "./tech/bash.png"
+import aws_v from "./tech/aws_v.png"
+import gh_a from "./tech/gh_a.png"
+import prom from "./tech/prom.png"
+import fast from "./tech/fast_api.png"
+import python from "./tech/python.jpeg"
 export {
   logo,
   backend,
@@ -66,13 +71,18 @@ export {
   gitlab,
   grafana,
   helm,
+  gh_a,
   kustomize,
   prometheous,
   terraform,
   vault,
+  python,
+  fast,
+  prom,
   jenkins,
   mobile,
   web,
+  aws_v,
   github,
   menu,
   close,
@@ -88,6 +98,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  bash,
   reactjs,
   redux,
   tailwind,
