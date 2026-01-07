@@ -53,6 +53,7 @@ import plx from "../assets/projects/plx.png";
 import Postman from "../assets/projects/postman.jpg";
 import websmasher from "../assets/projects/websmasher.png";
 import capitalcertificate from "../assets/Certification/capitalcertificate.png";
+import kode_kloud from "../assets/Certification/kode_kloud.png"
 import nextLevel from "../assets/Certification/next_level.png"
 import githubcertificate from "../assets/Certification/github.png";
 import edge from "../assets/Certification/edge_certificate.png"
@@ -359,7 +360,8 @@ export const testimonials = [
     company: "Acme Co",
     image: edge,
     live: "https://drive.google.com/file/d/1asQjao25paRDcQZH9pJyfPlNyzJdqxgV/view?usp=sharing",
-  },{
+  },
+  {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Sympa Solar Industrial Training",
@@ -376,6 +378,15 @@ export const testimonials = [
     company: "Acme Co",
     image: capitalcertificate,
     live: "https://drive.google.com/file/d/1asQjao25paRDcQZH9pJyfPlNyzJdqxgV/view?usp=sharing",
+  },
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "kode Kloud Docker Certificate",
+    designation: "CFO",
+    company: "Acme Co",
+    image: kode_kloud,
+    live: "https://drive.google.com/file/d/1sa-_npT-dYwRsOCZJmA5pj8daca_oBfl/view?usp=sharing",
   },
   {
     testimonial:
@@ -415,6 +426,80 @@ export const testimonials = [
 
 const projects = [
   {
+    name: "Sheba xyz",
+    description:
+      "A performance-optimized Next.js webapp serving on-demand service operations. Delivers a modular UI architecture and enterprise-grade scalability. Fully aligned with modern DevOps workflows to support rapid iteration, zero-downtime rollouts and Kubernetes-backed deployments.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DevSecOps",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgres",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ant Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sheba,
+    github_link_client: "https://github.com/nayem9b/Sheba.xyz-frontend",
+    github_link_server: "https://github.com/nayem9b/Sheba.xyz-backend",
+    live_link: "https://shebaxyz.vercel.app/",
+  },
+  {
+    name: "Bookify",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ant Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Supabase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bookify,
+    github_link_client: "https://github.com/nayem9b/Bookify-clientside",
+    github_link_server: "https://github.com/nayem9b/Paper-Trail-Serverside",
+    live_link: "https://bookify-clientside.vercel.app/",
+  },
+  {
     name: "PC Builder",
     description:
       "Web application that features Computer hardwares and a medium to add products in cart. Uses Nextjs, Redux and Mongodb",
@@ -440,45 +525,6 @@ const projects = [
     github_link_client: "https://github.com/nayem9b/PC-Builder-Client",
     github_link_server: "https://github.com/nayem9b/PC-Builder-Server",
     live_link: "https://pcbuilderhub.vercel.app/",
-  },
-  {
-    name: "Sheba xyz",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Postgres",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Clerk",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Ant Design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Supabase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sheba,
-    github_link_client: "https://github.com/nayem9b/Sheba.xyz-frontend",
-    github_link_server: "https://github.com/nayem9b/Sheba.xyz-backend",
-    live_link: "https://shebaxyz-gt23ec1s0-nayem9b.vercel.app/",
   },
   {
     name: "Anonna's Kitchen",
@@ -551,29 +597,7 @@ const projects = [
     github_link_server: "https://github.com/nayem9b/Paper-Trail-Serverside",
     live_link: "https://imaginative-parfait-c0d693.netlify.app/",
   },
-  {
-    name: "Bookify",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bookify,
-    github_link_client: "https://github.com/nayem9b/Bookify-clientside",
-    github_link_server: "https://github.com/nayem9b/Paper-Trail-Serverside",
-    live_link: "https://bookify-a39cf.web.app/",
-  },
+
   {
     name: "PLX",
     description:

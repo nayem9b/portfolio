@@ -44,7 +44,7 @@ const ProjectCard = ({
             <img
               src={image}
               alt="project_image"
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              className="w-full h-full group-hover:scale-110 transition-transform duration-500 object-contain"
             />
 
             {/* Image overlay gradient */}
@@ -209,7 +209,7 @@ const BottomSidebar = ({ project, onClose }) => {
           <img
             src={images[currentImageIndex]}
             alt={`${project.name} - ${currentImageIndex + 1}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
 
           {images.length > 1 && (
